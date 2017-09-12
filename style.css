@@ -86,8 +86,4 @@ footer {
 footer div > a {
   color: gold;
 }
-/* this class is added when the next quote button is clicked */
-.quote-border {
-  border: 2px solid gold;
-  border-radius: 12px;
-}
+/* this class is added when the next quote button 
