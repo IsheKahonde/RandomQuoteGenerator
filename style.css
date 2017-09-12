@@ -1,0 +1,90 @@
+body {
+  text-align: center;
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  background: #41295a; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2F0743,
+    #41295a
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2F0743,
+    #41295a
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100%;
+}
+header {
+  display: flex;
+  height: 150px;
+  flex-flow: row wrap;
+}
+#header-bg-left, #header-bg-right {
+  margin: 20px;
+  background: url('https://s3.ap-south-1.amazonaws.com/maprojekts/left-quote-sketch.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  flex: 1;
+}
+#header-bg-right {
+  transform: rotate(180deg);
+}
+#heading-in-header {
+  flex: 2;
+  font-family: 'Bungee Shade', cursive;
+  font-weight: 600;
+  padding-top: 25px;
+}
+#heading-in-header > h1 {
+  font-size: 2em;
+  line-height: 1.6em;
+  margin: 0;
+}
+.wrapper {
+  display: flex;
+  flex-flow: column wrap;
+}
+#quote-post {
+  font-size: 1.5em;
+  padding: 7px;
+  width: 80%;
+  margin: 3em auto 10px auto;
+  border-radius: 5px;
+}
+#share {
+  text-align: center;
+  font-size: 1.2em;
+}
+#shareBtn {
+  color: white;
+  font-size: 3rem;
+  margin: 3px;
+}
+#shareBtn:hover {
+  cursor: pointer;
+  color: gold;
+}
+button {
+  display: block;
+  width: 45%;
+  height: 2em;
+  margin: 5px auto;
+  border-radius: 35px;
+  border: none;
+  outline: none;
+  color: black;
+  font-size: 1.2em;
+  text-transform: capitalize;
+  background: gold;
+  cursor: pointer;
+}
+footer {
+  padding: 6px 0;
+  margin: 0;
+}
+/* this class is added when the next quote button is clicked */
+.quote-border {
+  border: 2px solid gold;
+  border-radius: 12px;
+}
