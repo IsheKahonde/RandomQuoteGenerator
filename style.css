@@ -83,7 +83,10 @@ footer {
   padding: 6px 0;
   margin: 0;
 }
-/* this class is added when the next quote button is clicked */
+footer div > a {
+  color: gold;
+}
+/* this class is added when the next quote button*/
 .quote-border {
   border: 2px solid gold;
   border-radius: 12px;
